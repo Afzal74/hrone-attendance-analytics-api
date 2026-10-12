@@ -1,0 +1,23 @@
+.venv/
+__pycache__/
+*.py[cod]
+.env
+.env.*
+!.env.example
+.pytest_cache/
+.coverage
+htmlcov/
+*.log
+*.dump
+*.bson
+*.sqlite
+*.db
+~$*.docx
+Dockerfile
+
+# Supplied candidate-kit materials — keep out of the public repository
+PROBLEM_STATEMENT.docx
+DATA_MODEL.md
+openapi.yaml
+sample_data/
+sample_seed.py
