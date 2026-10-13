@@ -25,5 +25,3 @@ The readiness endpoint is `GET /health`. Interactive API documentation is availa
 All API timestamps are epoch milliseconds. The service stores BSON datetimes in MongoDB, applies IST calendar
 rules, creates indexes at startup, and uses MongoDB aggregation for analytics. `REVIEW.md` records the defects
 found in the starter, `DECISIONS.md` explains the main design choices.
-
-Do not commit `.env`, credentials, virtual environments, database dumps, or a Dockerfile.
